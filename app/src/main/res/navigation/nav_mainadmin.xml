@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_mainadmin"
+    app:startDestination="@+id/nav_home1">
+
+    <fragment
+        android:id="@+id/nav_home1"
+        android:name="com.example.maskshop.HomeFragment"
+        android:label="ตรวจใบเสร็จ"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_user1"
+        android:name="com.example.maskshop.UserFragment"
+        android:label="บัญชีของฉัน"
+        tools:layout="@layout/fragment_user" />
+    <fragment
+        android:id="@+id/nav_report1"
+        android:name="com.example.maskshop.ReportFragment"
+        android:label="รายงานการซื้อสิ้นค้า"
+        tools:layout="@layout/fragment_report" />
+    <fragment
+        android:id="@+id/nav_logout1"
+        android:name="com.example.maskshop.LogoutFragment"
+        android:label="ออกจากระบบ"
+        tools:layout="@layout/fragment_logout" />
+
+</navigation>

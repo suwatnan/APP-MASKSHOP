@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Maskshop</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="root_url">http://10.13.1.77:8080/</string>
+    <string name="login_url">api/user/login</string>
+    <string name="user_url">api/user/</string>
+    <string name="order_url">api/order/</string>
+    <string name="orderviiiiiii_url">api/orderviiiiiii/</string>
+    <string name="addorder_url">api/addorder/</string>
+    <string name="SelectIDOrder_url">api/SelectIDOrder/</string>
+    <string name="AddOrderDetail_url">api/AddOrderDetail/</string>
+    <string name="orderupdate_url">api/orderupdate/</string>
+    <string name="AddPayment_url">api/AddPayment/</string>
+    <string name="delete_url">api/payment/</string>
+    <string name="updatestok_url">api/updatestok/</string>
+    <string name="updatestatus_url">api/updatestatus/</string>
+    <string name="deleteall_url">api/basketall/</string>
+    <string name="addorderna_url">api/addorderna/</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_register2">RegisterActivity2</string>
+
+
+    <string name="product_url">api/product/</string>
+    <string name="product_image_url">images/</string>
+    <string name="user_image_url">images/</string>
+    <string name="monthlySale_url">api/report/monthlySale/</string>
+    <string name="topFiveProduct_url">api/report/topFiveProduct/</string>
+    <string name="title_activity_payment">PaymentActivity</string>
+    <string name="addcart">api/addbasket/</string>
+    <string name="viewcart">api/basket/</string>
+    <string name="deletecart">api/basket/</string>
+    <string name="viewpayment_url">api/viewpayment/</string>
+    <string name="title_activity_promotion">PromotionActivity</string>
+
+
+</resources>
